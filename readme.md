@@ -1,4 +1,4 @@
-# MODUL 1, 2
+# MODUL 5 6
 
 Didalam modul kali ini kita lebih dalam memahami tentang konsep Inheritance. Dan menerapkan Polymorphidm supaya mencapai fleksibilitas. Mempelajari lebih lanjut menerapkan Encapsulation agar melindungu data yang berada didalam objek. Dan mengimplementasikan bertujuan agar kode lebih sederhana dan mudah dipahami.
 ## Jobsheet 3: Mampu Menerapkan Konsep Inheritance, Polymorphism, Encapsulation, dan Abstraction dalam PHP
@@ -62,8 +62,8 @@ class Teacher extends Person {
 $student = new Student("Alissya Iklima Nur Ramadani", "101005");
 $teacher = new Teacher("Muhammad Arya Candra Pratama", "170104");
 
-echo $student->getName() . "<br>";  // Output: Student: Aya
-echo $teacher->getName() . "<br>";  // Output: Teacher: Bobi
+echo $student->getName() . "<br>";
+echo $teacher->getName() . "<br>"; 
 ?>
 
 ```
